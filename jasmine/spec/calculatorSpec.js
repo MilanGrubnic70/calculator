@@ -27,4 +27,9 @@ describe('Calculator', function() {
     it('should not be undefined', function() {
         expect(calc).not.toBeUndefined();
     });
+
+    it('should be true', function() {
+        expect(calc).toBeTruthy();
+    });
+
 });
