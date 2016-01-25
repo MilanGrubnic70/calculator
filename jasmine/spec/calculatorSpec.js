@@ -17,6 +17,6 @@ describe('Calculator', function() {
     });
 
     it('can divide positive integers', function() {
-        expect(cacl.div(25, 5)).toEqual(5);
+        expect(calc.div(25, 5)).toEqual(5);
     });
 });
