@@ -35,5 +35,4 @@ describe('Calculator', function() {
     it('should be not be false', function() {
         expect(calc).not.toBeFalsy();
     });
-
 });
