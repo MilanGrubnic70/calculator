@@ -7,4 +7,8 @@ var Calculator = function() {
     this.sub = function(num1, num2) {
         return num1 - num2;
     };
+
+    this.multi = function(num1, num2) {
+        return num1 * num2;
+    };
 };
