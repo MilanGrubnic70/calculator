@@ -23,4 +23,8 @@ describe('Calculator', function() {
     it('should be defined', function() {
         expect(calc).toBeDefined();
     });
+
+    it('should not be undefined', function() {
+        expect(calc).not.toBeUndefined();
+    });
 });
