@@ -32,4 +32,8 @@ describe('Calculator', function() {
         expect(calc).toBeTruthy();
     });
 
+    it('should be not be false', function() {
+        expect(calc).not.toBeFalsy();
+    });
+
 });
