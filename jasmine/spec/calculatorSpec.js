@@ -19,4 +19,8 @@ describe('Calculator', function() {
     it('can divide positive integers', function() {
         expect(calc.div(25, 5)).toEqual(5);
     });
+
+    it('should be defined', function() {
+        expect(calc).toBeDefined();
+    });
 });
